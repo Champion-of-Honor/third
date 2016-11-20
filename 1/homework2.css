@@ -1,0 +1,31 @@
+.main{
+	width:200px;
+	height:200px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0; 
+	margin:auto;
+	background: #EFEFEF;
+	border: 1px solid #B6B6B6;
+
+}
+.left{
+	width: 50px;
+	height: 50px;
+	border-radius: 0 0 50px 0;
+	position:relative; 
+	left:0px;
+	background: red;
+}
+.right{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px 0 0  0;
+	position: relative;
+	float: right;
+	top: 100px;
+	right: 0;
+	background: red;
+}
